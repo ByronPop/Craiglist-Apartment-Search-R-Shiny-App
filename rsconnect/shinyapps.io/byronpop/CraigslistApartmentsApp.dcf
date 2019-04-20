@@ -1,0 +1,13 @@
+name: CraigslistApartmentsApp
+title: CraigslistApartmentsApp
+username:
+account: byronpop
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 878796
+bundleId: 2025258
+url: https://byronpop.shinyapps.io/CraigslistApartmentsApp/
+when: 1555768327.41713
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: NYC_Neighborhoods.csv
