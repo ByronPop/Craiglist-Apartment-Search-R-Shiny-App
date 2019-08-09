@@ -21,7 +21,7 @@ All data and general methods are loaded into the Global file prior to execution.
 ## Functionality
 When you click on an apartment listing, several background methods execute to display relevant market metrics. Both run in ~ O(n) time.
 
-To calculate nearby apartments, I:
+To calculate price comparison of nearby apartments, I:
 
 1. Take the lat/lon coordinates of the desired apartment.
 2. Calculate the bounding coordinates of a square .25 miles in radius from the desired apartment (e.g., southMostLat,northMostLat,westMostLong).
