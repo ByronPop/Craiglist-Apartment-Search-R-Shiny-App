@@ -20,6 +20,7 @@ All data and general methods are loaded into the Global file prior to execution.
 
 ## Functionality
 When you click on an apartment listing, several background methods execute to display relevant market metrics. Both run in ~ O(n) time.
+
 To calculate nearby apartments, I:
 
 1. Take the lat/lon coordinates of the desired apartment.
