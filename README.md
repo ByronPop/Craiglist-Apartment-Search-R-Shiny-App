@@ -7,7 +7,7 @@ This is an ongoing project to help me search for apartments in NYC or really any
 
 The app allows you to filter by the usual criteria. When you click on an apartment, it gives you the apartment's details, a bar chart showing prices of similar apartments within a 0.25 mile radius, and median prices over the past year for similar apartments in the neighborhood. Right now, it calculates subway commute time to the Federal Reserve of NY (where I work) but you could change it to be any destination (e.g., proximity to Trader Joe's).
 
-<img width="1421" alt="Screen Shot 2019-04-20 at 9 33 59 AM" src="https://user-images.githubusercontent.com/33380363/56457936-aa2aab00-634f-11e9-8e60-afd8ea39e557.png">
+![Screen Shot 2020-10-08 at 8 09 46 PM](https://user-images.githubusercontent.com/33380363/95526303-7bb8e980-09a2-11eb-9973-f3636abb4a38.png)
 
 ## Data
 The app uses apartment listings data from Craiglist, neighborhood pricing data from [Streeteasy](https://streeteasy.com/blog/data-dashboard/) and subway stop data from the [NYC MTA website](https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49). 
