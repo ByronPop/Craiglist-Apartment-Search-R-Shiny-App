@@ -1,14 +1,11 @@
 # Craigslist Apartment Search R Shiny App
 
-Try out the app here: [Byron Pop's Craigslist Apartment Search App](https://byronpop.shinyapps.io/Bpops_Craigslist_Apartment_App/)
-
 ## App Description
 This is an ongoing project to help me search for apartments in NYC or really any other city. I know Craigslist and Streeteasy have similar functionality but I wanted to make something more personalized (and learn R in the meantime). 
 
 The app allows you to filter by the usual criteria. When you click on an apartment, it gives you the apartment's details, a bar chart showing prices of similar apartments within a 0.25 mile radius, and median prices over the past year for similar apartments in the neighborhood. Right now, it calculates subway commute time to the Federal Reserve of NY (where I work) but you could change it to be any destination (e.g., proximity to Trader Joe's).
 
 ![Craigslist Apt Gif](https://user-images.githubusercontent.com/33380363/95530176-2cc38200-09ab-11eb-9619-f2935389fbeb.gif)
-
 
 
 ## Data
@@ -21,6 +18,9 @@ All data and general methods are loaded into the Global file prior to execution.
 <img width="1042" alt="Screen Shot 2019-04-10 at 10 05 20 PM" src="https://user-images.githubusercontent.com/33380363/55926159-429d8e80-5bde-11e9-8669-9d5f2834b1c5.png">
 
 ## Functionality
+
+Try out the app here: [Byron Pop's Craigslist Apartment Search App](https://byronpop.shinyapps.io/Bpops_Craigslist_Apartment_App/)
+
 When you click on an apartment listing, several background methods execute to display relevant market metrics. Both run in ~ O(n) time.
 
 To calculate price comparison of nearby apartments, I:
