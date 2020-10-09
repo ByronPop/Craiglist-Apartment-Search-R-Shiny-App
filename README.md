@@ -1,6 +1,6 @@
 # Craigslist Apartment Search R Shiny App
 
-Try out the app here: [Byron Pop's Craigslist Apartment Search App](https://byronpop.shinyapps.io/CraigslistApartmentsApp/)
+Try out the app here: [Byron Pop's Craigslist Apartment Search App](https://byronpop.shinyapps.io/Bpops_Craigslist_Apartment_App/)
 
 ## App Description
 This is an ongoing project to help me search for apartments in NYC or really any other city. I know Craigslist and Streeteasy have similar functionality but I wanted to make something more personalized (and learn R in the meantime). 
