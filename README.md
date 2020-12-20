@@ -11,7 +11,7 @@ The app allows you to filter by the usual criteria. When you click on an apartme
 ## Data
 The app uses apartment listings data from Craiglist, neighborhood pricing data from [Streeteasy](https://streeteasy.com/blog/data-dashboard/) and subway stop data from the [NYC MTA website](https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49). 
 
-Craigslist does not provide an API for obtaining data from their site. Therefore, I built a simple web scraper utilizing selenium and chromedriver to navigate through Craigslist to extract apartment listing information. I then use BeautifulSoup to parse the raw html of each url in a systematic fashion. You can access all of the data in the "Data" tab. 
+Craigslist does not provide an API for obtaining data from their site. To get the data, I built a Python web scraper using selenium and chromedriver to navigate through Craigslist to extract apartment listing information. I then use BeautifulSoup to parse the raw html of each url in a systematic fashion. You can access all of the data in the "Data" tab. 
 
 All data and general methods are loaded into the Global file prior to execution. 
 
